@@ -1,13 +1,8 @@
-// get a random string
+// load test snippets
 
 package main
 
-import (
-	"fmt"
-
-	"github.com/polarbroadband/goto/util"
-)
-
 func main() {
-	fmt.Println(util.RandString(30))
+	randString()
+	xmlToUrl()
 }

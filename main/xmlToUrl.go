@@ -24,7 +24,7 @@ const ridd = `
 `
 const rid = `<ztpclient id="YU90876A"><mask>29</mask><device>ec01s05</device></ztpclient>`
 
-func main() {
+func xmlToUrl() {
 	fmt.Println("Hello, 世界")
 
 	// splite the string with "" will split the each character
